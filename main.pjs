@@ -1,0 +1,13 @@
+$meta
+  title = Finanças Unificado — Fluxo + Carteira
+  description = Unificação: fluxo de caixa operacional (contas, provisionado, orçamentos, metas) + carteira analítica (7 classes, gráficos, Visão 360). Persistência kv + local, JSON/CSV/XLSX, cotações B3 e cripto.
+  header
+    mode = minimal
+
+kv = {import:kv-plugin}
+superFetch = {import:super-fetch-plugin}
+uploadPlugin = {import:upload-plugin}
+
+config
+  currency = BRL
+  appName = FLUXO UNIFICADO
